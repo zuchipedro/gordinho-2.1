@@ -1,77 +1,92 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifolio</title>
+    <title>Portfólio - Projeto Integrador</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header> 
-    <h1> projeto integrador </h1> 
-<nav>
-
-    <a href="#">inicio</a>
-      </nav>
+    <!-- Cabeçalho Principal -->
+    <header> 
+        <h1>Projeto Integrador</h1> 
+        <nav>
+            <a href="#">Início</a>
+        </nav>
     </header>
+
+    <!-- Conteúdo Principal -->
     <main>
 
-        <h2>disco de newton</h2>
-       <article> 
+        <!-- Projeto 1: Disco de Newton -->
+        <article class="projeto"> 
+            <h2>Disco de Newton</h2>
+            <div class="conteudo-projeto">
+                <img src="tais.jpg" alt="Disco de Newton" width="300">
+                <div class="texto">
+                    <p>O Disco de Newton é um dispositivo inventado pelo físico Isaac Newton para demonstrar de forma prática a decomposição e recomposição da luz. Ele prova que a luz branca do Sol é, na verdade, a mistura de todas as cores do arco-íris.</p>
 
-        <div>   
-           </div>
-<div class="imagem-produto">
+                    <h3>Como Funciona:</h3>
+                    <ul>
+                        <li><strong>Cores básicas:</strong> O disco é dividido em setores circulares pintados com as cores do espectro visível (vermelho, laranja, amarelo, verde, azul, anil e violeta).</li>
+                        <li><strong>Rotação rápida:</strong> Quando o disco gira em alta velocidade, as cores se misturam diante dos nossos olhos.</li>
+                        <li><strong>Resultado visual:</strong> O disco passa a parecer branco (ou cinza-esbranquiçado, dependendo da fidelidade das cores e da iluminação do ambiente).</li>
+                        <li><strong>Fenômeno biológico:</strong> Isso acontece devido à persistência retiniana, uma ilusão de ótica onde o olho humano retém a imagem de cada cor por uma fração de segundo, sobrepondo-as no cérebro.</li>
+                    </ul>
 
-                 <img src="tais.jpg"  alt="gato de oculos"> width="300">
-                 <div class="texto"
-                 <p> O Disco de Newton e um dispositivo inventado pelo fisico Isaac Newton para demonstrar 
-                    de forma pratica a decomposicao e recomposicao da luz.
-                 Ele prova que a luz branca do Sol e, na verdade, a mistura de todas as cores do arco-iris. 
-                  Como Funciona:
-                   Cores basicas: O disco e dividido em setores circulares pintados com as cores do 
-                   espectro visivel (vermelho, laranja, amarelo, verde, azul, anil e violeta).  Rotacao rapida: 
-                 Quando o disco gira em alta velocidade, as cores se misturam diante dos nossos olhos.
-                  Resultado visual: O disco passa a parecer branco (ou cinza-esbranquicado, 
-                  dependendo da fidelidade das cores e da iluminacao do ambiente).
-                   Fenomeno biologico: Isso acontece devido a persistencia retiniana, 
-                   uma ilusao de otica onde o olho humano retem a imagem de cada cor por uma fracao de segundo, sobrepondo-as no cerebro.
-                 Materiais necessarios:  (para a base onde o disco sera desenhado).Compasso ou um CD antigo (usado como molde para fazer 
-                 o circulo perfeito).Lapis de cor, giz de cera ou canetinhas nas sete cores do arco-iris 
-                 (vermelho, laranja, amarelo, verde, azul, anil/escuro e violeta/roxo).Regua e lapis comum (para dividir o circulo em fatias iguais).
-                 Tesoura (com ponta, para recortar).Suporte para girar: Um lapis apontado, um palito de churrasco, 
-                 um barbante ou ate um CD velho com gude/tampa para virar um piao.Cola (branca ou quente) para fixar as partes. </p>
-</div>
-    </div>
-           </div>
-                 </div>
+                    <h3>Materiais Necessários:</h3>
+                    <ul>
+                        <li>Papel cartão ou papelão (base para o desenho)</li>
+                        <li>Compasso ou CD antigo (molde para o círculo)</li>
+                        <li>Lápis de cor, giz de cera ou canetinhas nas sete cores</li>
+                        <li>Régua e lápis comum</li>
+                        <li>Tesoura sem ponta</li>
+                        <li>Suporte para girar (lápis, palito de churrasco ou barbante)</li>
+                        <li>Cola branca ou quente</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
 
-     <h2> led rgb</h2>
-       </article>
-<img scr="img_20260810_104859.jpg" alt="led rgb" width="300">
+        <!-- Projeto 2: LED RGB -->
+        <article class="projeto">
+            <h2>LED RGB</h2>
+            <div class="conteudo-projeto">
+                <img src="img_20260810_104859.jpg" alt="LED RGB" width="300">
+                <div class="texto">
+                    <p>Um LED RGB é um componente de luz que mistura três cores básicas: Vermelho (Red), Verde (Green) e Azul (Blue) para criar milhares de cores diferentes.</p>
+                </div>
+            </div>
+        </article>
 
+        <!-- Projeto 3: Semáforo -->
+        <article class="projeto">
+            <h2>Semaforo</h2>
+            <div class="conteudo-projeto">
+                <img src="IMG-202660818-WA0004(1).jpg" alt="Semáforo de LED" width="300">
+                <div class="texto">
+                    <p>O semaforo é um dispositivo de sinalização viária fundamental para organizar o trânsito de veículos e pedestres no dia a dia, atuando diretamente no controle de fluxo ao alternar a passagem em cruzamentos para evitar congestionamentos. Além de aumentar a segurança ao reduzir o risco de colisões e proteger quem atravessa a rua, ele garante a priorização e o direito de preferência de forma clara por meio de suas cores universais: verde para avançar, amarelo para ter atenção e vermelho para parar.</p>
+
+                    <h3>Materiais Utilizados:</h3>
+                    <ul>
+                        <li>Placa Arduino Uno</li>
+                        <li>Protoboard (Matriz de Contatos)</li>
+                        <li>LEDs (Verdes, Vermelho e Amarelo)</li>
+                        <li>Resistores</li>
+                        <li>Fios Jumpers</li>
+                        <li>Notebook</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
 
     </main>
-<section> 
-    
-    
-   <p> Um LED RGB e um componente de luz que mistura tres cores basicas  Vermelho (Red), Verde (Green) e Azul (Blue) 
-     para criar milhares de cores diferentes</p> 
-<p>O semaforo e um dispositivo de sinalizacao viaria fundamental para organizar o transito de veiculos e pedestres no dia a dia, atuando diretamente no controle de fluxo ao alternar a passagem em cruzamentos para evitar congestionamentos. Além de aumentar a segurança ao reduzir o risco de colisoes e proteger quem atravessa a rua, ele garante a priorizacao e o direito de preferencia de forma clara por meio de suas cores universais: verde para avancar, amarelo para ter atencao e vermelho para parar
-</p>
 
-    <h2> semaforo </h2>
-       </article>
-<img scr="IMG-202660818-WA0004(1).jpg" alt="semaforo de led"
-  
-<p>Placa Arduino Uno
-Protoboard (Matriz de Contatos)
-LEDs (Verdes, Vermelho e Amarelo)
-Resistores
-Fios Jumpers
-Notebook</p>
-<p> O semaforo e um dispositivo de sinalizacao viaria fundamental para organizar o transito de veiculos e pedestres no dia a dia, atuando diretamente no controle de fluxo ao alternar a passagem em cruzamentos para evitar congestionamentos. Alem de aumentar a seguranca ao reduzir o risco de colises e proteger quem atravessa a rua, ele garante a priorizacao e o direito de preferencia de forma clara por meio de suas cores universais: verde para avancar, amarelo para ter atencao e vermelho para parar
-</p>
+    <!-- Rodape da Pagina -->
+    <footer>
+        <p>&copy; 2026 - Portfolio Projeto Integrador</p>
+    </footer>
 
-  <h2> </h2>
+</body>
+</html>
